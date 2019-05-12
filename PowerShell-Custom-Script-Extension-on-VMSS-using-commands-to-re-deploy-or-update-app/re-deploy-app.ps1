@@ -1,5 +1,5 @@
 # add web server with all features
-#Add-WindowsFeature -Name Web-Server -IncludeAllSubFeature
+Add-WindowsFeature -Name Web-Server -IncludeAllSubFeature
 
 # clean www root folder
 Remove-Item C:\inetpub\wwwroot\* -Recurse -Force
